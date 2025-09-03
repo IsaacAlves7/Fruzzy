@@ -1,5 +1,5 @@
 # Fruzzy
-🧐💡📄 It's a repository of the system that performs OCR on PDF documents, extracts structured data, and automatically exports it to Excel spreadsheets for automation and analysis.
+🧐💡📄 É um repositório do sistema que realiza OCR em documentos PDF, extrai dados estruturados e os exporta automaticamente para planilhas do Excel para automação e análise. Com ele é possível ler mais de 100 PDFs e escrever todos os dados e relatórios em uma única planilha do Excel.
 
 Tecnologia embarcada:
 
