@@ -1,4 +1,6 @@
 # Fruzzy
+🧐💡📄 It's a repository of the system that performs OCR on PDF documents, extracts structured data, and automatically exports it to Excel spreadsheets for automation and analysis.
+
 Tecnologia embarcada:
 
 - C# .Net Core 8/5.0
@@ -29,7 +31,7 @@ aleatório. Ele apresentará a mensagem de ausência do banco de dados e apresen
 Em produção o sistema utiliza um banco de dados em sqlexpress com o banco, já configurado com a autenticação do Windows do sistema AD Fruzzy.  
 
 ## Bases em JSONs 
-Existe uma pasta com um conjunto de arquivos nos formatos json. Eles tem as configurações de vários parâmetros para a leitura e identificação dos documentos que serão lidos. O apontamento do caminho da pasta leitura desses arquivos no formato json, deve ser feito no arquivo appsettings.json no parâmetro expressionjsons. 
+Existe uma pasta com um conjunto de arquivos nos formatos json. Eles tem as configurações de vários parâmetros para a leitura e identificação dos documentos que serão lidos. O apontamento do caminho da pasta leitura desses arquivos no formato json, deve ser feito no arquivo `appsettings.json` no parâmetro expressionjsons. 
 
 ## Formatação de datas 
 Por conta da inteligência de leitura de datas da Microsoft, foi necessário “desserializar” as datas em arquivos separados pelo nome do arquivo no formato JSON. O apontamento do caminho da pasta de escrita desses arquivos no formato json, deve ser feito no arquivo `appsettings.json`. 
