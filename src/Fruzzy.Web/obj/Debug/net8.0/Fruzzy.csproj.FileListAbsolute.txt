@@ -1,0 +1,8 @@
+C:\Users\jamal\source\repos\Fruzzy\Fruzzy\obj\Debug\net8.0\Fruzzy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jamal\source\repos\Fruzzy\Fruzzy\obj\Debug\net8.0\Fruzzy.AssemblyInfoInputs.cache
+C:\Users\jamal\source\repos\Fruzzy\Fruzzy\obj\Debug\net8.0\Fruzzy.AssemblyInfo.cs
+C:\Users\jamal\source\repos\Fruzzy\Fruzzy\obj\Debug\net8.0\Fruzzy.csproj.CoreCompileInputs.cache
+C:\Users\jamal\source\repos\Fruzzy\Fruzzy\obj\Debug\net8.0\Fruzzy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jamal\source\repos\Fruzzy\Fruzzy\obj\Debug\net8.0\Fruzzy.RazorAssemblyInfo.cache
+C:\Users\jamal\source\repos\Fruzzy\Fruzzy\obj\Debug\net8.0\Fruzzy.RazorAssemblyInfo.cs
+C:\Users\jamal\source\repos\Fruzzy\Fruzzy\obj\Debug\net8.0\Fruzzy.csproj.AssemblyReference.cache
