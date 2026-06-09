@@ -5,6 +5,20 @@
 # 🧐📄 Fruzzy
 É um repositório do sistema que realiza OCR em documentos PDF, extrai dados estruturados e os exporta automaticamente para planilhas do Excel para automação e análise. Com ele é possível ler mais de 100 PDFs e escrever todos os dados e relatórios em uma única planilha do Excel.
 
+Essa ferramenta une o melhor dos dois mundos, pela imagem, o fluxo mostrado é:
+
+1. Receber um PDF.
+2. Fazer parsing das páginas.
+3. Executar OCR (extração de texto de imagens).
+4. Realizar análise de layout (entender títulos, tabelas, blocos, gráficos etc.).
+5. Identificar a estrutura das tabelas.
+6. Aplicar pós-processamento.
+7. Serializar o resultado em JSON ou Markdown.
+
+Ou seja, o que a imagem descreve é muito mais um sistema de **Document AI**, **Document Processing** ou **Intelligent Document Parsing** do que uma ferramenta específica para automação de planilhas.
+
+Automação e análise de planilhas faria mais sentido para ferramentas focadas em Excel, CSV, Google Sheets ou BI. Pela arquitetura mostrada, o Fruzzy parece estar mais próximo de soluções como [Apache Tika](https://tika.apache.org?utm_source=chatgpt.com), [Docling](https://docling-project.github.io/docling/?utm_source=chatgpt.com), [Unstructured.io](https://unstructured.io?utm_source=chatgpt.com) ou pipelines de OCR para ingestão de documentos. Isso pode ser usado em Engenharia de Dados, mas o foco principal parece ser **extração e estruturação de dados de documentos PDF**.
+
 Tecnologia embarcada:
 
 - C# .Net Core 8/5.0
@@ -21,33 +35,33 @@ Principais Nuggets Instalados:
 - XMLWorkbook
 - Microsoft.RecognizerText.DateTime 
 
-Extensões para o visual Studio 
+Extensões para o visual Studio:
 - Conveyor 
 
-## Endereço para criação de novos usuários 
+## [Fruzzy] Endereço para criação de novos usuários 
 - Para aplicações em desenvolvimento a criação de novos usuários deve acontecer neste endereço -> https://localhost:44312/Identity/Account/Register  
 - Para aplicações em produção, a criação de novos usuários deve acontecer neste endereço -> https://fruzzydoc:45455/Identity/Account/Register 
 
-## Base de dados e contexto 
+## [Fruzzy] Base de dados e contexto 
 O sistema está implementado no formato Database-First, não sendo necessário script para a criação do banco de dados. Apenas a inicialização do sistema com a variável de ambiente no modo de desenvolvimento. Ele irá apresentar a tela de login e escrever um email e senha 
 aleatório. Ele apresentará a mensagem de ausência do banco de dados e apresentará uma mensagem de aplicar migration. Escolha a opção com a lista de maior opção. 
 
 Em produção o sistema utiliza um banco de dados em sqlexpress com o banco, já configurado com a autenticação do Windows do sistema AD Fruzzy.  
 
-## Bases em JSONs 
+## [Fruzzy] Bases em JSONs 
 Existe uma pasta com um conjunto de arquivos nos formatos json. Eles tem as configurações de vários parâmetros para a leitura e identificação dos documentos que serão lidos. O apontamento do caminho da pasta leitura desses arquivos no formato json, deve ser feito no arquivo `appsettings.json` no parâmetro expressionjsons. 
 
-## Formatação de datas 
+## [Fruzzy] Formatação de datas 
 Por conta da inteligência de leitura de datas da Microsoft, foi necessário “desserializar” as datas em arquivos separados pelo nome do arquivo no formato JSON. O apontamento do caminho da pasta de escrita desses arquivos no formato json, deve ser feito no arquivo `appsettings.json`. 
 
-## Operations 
+## [Fruzzy] Operations 
 É permitido apenas uma operação em andamento por vez no sistema para garantirmos que não teremos “estouros” de memória por conta de um problema de alto processamento. Caso a operação esteja presa e o sistema com baixo processamento (abaixo de 6%), pode ser executado este comando para limpar alguma operação que tenha ficado presa. 
 
-```
+```sql
 Update dbo.Operation set ready = ‘true’ Where ready = ‘false’. 
 ```
 
-## Fuzzyficação
+## [Fruzzy] Fuzzyficação
 A **fuzzificação** é o núcleo lógico do Fruzzy para lidar com documentos do mundo real, que raramente seguem um padrão rígido e previsível. Diferente de sistemas baseados apenas em parsing determinístico, o Fruzzy parte do princípio de que PDFs escaneados, OCRizados ou convertidos para TXT apresentam variações de escrita, erros de reconhecimento óptico, diferenças de layout, abreviações, caracteres trocados e até mudanças sutis de vocabulário entre documentos que, semanticamente, representam a mesma informação.
 
 No Fruzzy, a fuzzificação não termina no cálculo de similaridade textual. Embora o sistema utilize métricas fuzzy para lidar com imprecisão, ruídos de OCR e variações semânticas, a decisão final sobre o que é ou não um dado válido passa obrigatoriamente por um processo de crispificação, utilizando a função Crisp. Esse modelo híbrido foi adotado para garantir previsibilidade, consistência e segurança na extração de dados que, ao final do fluxo, precisam ser determinísticos para escrita em banco de dados e geração de planilhas Excel.
