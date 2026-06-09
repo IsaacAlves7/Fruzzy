@@ -21,7 +21,7 @@ Ou seja, o que a imagem descreve é muito mais um sistema de **Document AI**, **
 
 Portanto, a automação e análise de planilhas faria mais sentido para ferramentas focadas em Excel, CSV, Google Sheets ou BI. Pela arquitetura mostrada, o Fruzzy parece estar mais próximo de soluções como [Apache Tika](https://tika.apache.org?utm_source=chatgpt.com), [Docling](https://docling-project.github.io/docling/?utm_source=chatgpt.com), [Unstructured.io](https://unstructured.io?utm_source=chatgpt.com) ou pipelines de OCR para ingestão de documentos. Isso pode ser usado em Engenharia de Dados, mas o foco principal parece ser **extração e estruturação de dados de documentos PDF**.
 
-No entanto, devido a necessidade e complexidade dessas ferramentas acima em visão de um mundo onde a produtividade é baseada pela performance, ele precisa não somente extrair dados, mas sim produzir dados em larga escala.
+No entanto, devido a necessidade e complexidade dessas ferramentas acima em visão de um mundo onde a produtividade é baseada pela performance, ele precisa não somente extrair dados, mas sim produzir e mesclar dados em larga escala para produção (criação de aplicações consumidoras desses dados, como um produto ou ativo). Isso aqui sim é um diferencial conceitual claro, porque você está saindo do paradigma clássico de ETL/ELT (extrair, transformar, carregar) e indo para algo mais próximo de data generation pipelines ou data synthesis systems, o que conversa bastante com IA moderna, agentes e automação de conhecimento.
 
 Tecnologia embarcada:
 
