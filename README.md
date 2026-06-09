@@ -5,7 +5,7 @@ A ideia por trás do Fruzzy é inovadora para Engenharia de Dados e ETL/ELT, poi
 
 Antes, o repositório era de um sistema que realizava OCR em documentos PDF, extraia dados estruturados e os exportava automaticamente para planilhas do Excel para automação e análise. Com ele era possível ler mais de 100 PDFs e escrever todos os dados e relatórios em uma única planilha do Excel.
 
-Com sua evolução, essa ferramenta une o melhor dos dois mundos, pela imagem, o fluxo mostrado é:
+Com sua evolução, essa ferramenta uniu o melhor dos dois mundos, pela imagem, o fluxo mostrado é:
 
 ![Fruzzy process](https://github.com/user-attachments/assets/f7c24204-a07b-4371-9c13-b0d04ada8c65)
 
@@ -19,7 +19,9 @@ Com sua evolução, essa ferramenta une o melhor dos dois mundos, pela imagem, o
 
 Ou seja, o que a imagem descreve é muito mais um sistema de **Document AI**, **Document Processing** ou **Intelligent Document Parsing** do que uma ferramenta específica para automação de planilhas.
 
-Automação e análise de planilhas faria mais sentido para ferramentas focadas em Excel, CSV, Google Sheets ou BI. Pela arquitetura mostrada, o Fruzzy parece estar mais próximo de soluções como [Apache Tika](https://tika.apache.org?utm_source=chatgpt.com), [Docling](https://docling-project.github.io/docling/?utm_source=chatgpt.com), [Unstructured.io](https://unstructured.io?utm_source=chatgpt.com) ou pipelines de OCR para ingestão de documentos. Isso pode ser usado em Engenharia de Dados, mas o foco principal parece ser **extração e estruturação de dados de documentos PDF**.
+Portanto, a automação e análise de planilhas faria mais sentido para ferramentas focadas em Excel, CSV, Google Sheets ou BI. Pela arquitetura mostrada, o Fruzzy parece estar mais próximo de soluções como [Apache Tika](https://tika.apache.org?utm_source=chatgpt.com), [Docling](https://docling-project.github.io/docling/?utm_source=chatgpt.com), [Unstructured.io](https://unstructured.io?utm_source=chatgpt.com) ou pipelines de OCR para ingestão de documentos. Isso pode ser usado em Engenharia de Dados, mas o foco principal parece ser **extração e estruturação de dados de documentos PDF**.
+
+No entanto, devido a necessidade e complexidade dessas ferramentas acima em visão de um mundo onde a produtividade é baseada pela performance, ele precisa não somente extrair dados, mas sim produzir dados em larga escala.
 
 Tecnologia embarcada:
 
