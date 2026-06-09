@@ -1,9 +1,11 @@
 > Versículo chave: "Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos." - Provérbios 16:3
 
 # 🧐📄 Fruzzy
-É um repositório do sistema que realiza OCR em documentos PDF, extrai dados estruturados e os exporta automaticamente para planilhas do Excel para automação e análise. Com ele é possível ler mais de 100 PDFs e escrever todos os dados e relatórios em uma única planilha do Excel.
+A ideia por trás do Fruzzy é inovadora para Engenharia de Dados e ETL/ELT, pois atua como um sistema inteligente capaz de lidar com múltiplos arquivos e executar todo o fluxo de trabalho ETL/ELT de ponta a ponta. Em vez de focar em etapas isoladas como extração, transformação ou carregamento separado, ele reúne tudo em um pipeline unificado e automatizado, onde documentos podem ser ingeridos em escala e processados em saídas estruturadas em formatos como JSON ou Markdown. Isso o torna especialmente útil para fluxos de trabalho modernos de dados e sistemas de IA, onde dados não estruturados precisam ser continuamente transformados em informações utilizáveis e legíveis por máquinas.
 
-Essa ferramenta une o melhor dos dois mundos, pela imagem, o fluxo mostrado é:
+Antes, o repositório era de um sistema que realizava OCR em documentos PDF, extraia dados estruturados e os exportava automaticamente para planilhas do Excel para automação e análise. Com ele era possível ler mais de 100 PDFs e escrever todos os dados e relatórios em uma única planilha do Excel.
+
+Com sua evolução, essa ferramenta une o melhor dos dois mundos, pela imagem, o fluxo mostrado é:
 
 ![Fruzzy process](https://github.com/user-attachments/assets/f7c24204-a07b-4371-9c13-b0d04ada8c65)
 
