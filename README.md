@@ -5,6 +5,8 @@ A ideia por trás do **Fruzzy** é inovadora para Engenharia de Dados e ETL/ELT,
 
 Antes, o repositório era de um sistema que realizava OCR em documentos PDF, extraia dados estruturados e os exportava automaticamente para planilhas do Excel para automação e análise. Com ele era possível ler mais de 100 PDFs e escrever todos os dados e relatórios em uma única planilha do Excel.
 
+A imagem abaixo ilustra de forma simples como é feito o processamento do OCR, e os balões formam a conversão em texto, sendo reconhecidos para transcrição no formato tabular e estruturada em planilhas Excel.
+
 <img width="1024" height="768" alt="663334581_1561169256017279_4272855674869920448_n" src="https://github.com/user-attachments/assets/31dd90fc-26e4-4a0d-a7b8-d601f4396d9b" />
 
 Com sua evolução, essa ferramenta uniu o melhor dos dois mundos, pela imagem, o fluxo mostrado é:
