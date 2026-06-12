@@ -91,6 +91,8 @@ Do ponto de vista de desempenho, a fuzzificação é uma das etapas mais custosa
 Em resumo, a fuzzificação no Fruzzy não é apenas um detalhe de implementação, mas um princípio arquitetural. Ela permite que o sistema funcione em ambientes imperfeitos, com documentos inconsistentes e dados ruidosos, aproximando o processamento automatizado da forma como um humano interpreta informação textual: por similaridade, contexto e probabilidade, e não por igualdade absoluta. É esse mecanismo que torna viável a análise automatizada de centenas de PDFs heterogêneos e a consolidação confiável dos dados em planilhas Excel únicas e estruturadas.
 
 ## [Fruzzy] ELT/ETL
+<img width="1280" height="799" alt="687640848_959948516644747_1933087596060947387_n" src="https://github.com/user-attachments/assets/9ebe4b03-c4f5-415f-b435-fc84b11d1f27" />
+
 **Web scraping** é o processo de extração automatizada de informações de páginas da web, simulando o comportamento de um usuário humano, mas de forma programática. Em vez de copiar dados manualmente de um site, um script ou programa acessa o conteúdo HTML da página, interpreta sua estrutura e coleta as informações desejadas — como textos, links, imagens, preços, notícias ou qualquer dado disponível publicamente.
 
 Em resumo, o web scraping é uma forma de coletar dados estruturados a partir de fontes não estruturadas na web — transformando páginas HTML em datasets úteis para análise, aprendizado de máquina, automação e relatórios, desde que feito com responsabilidade e dentro dos limites éticos e legais.
@@ -121,5 +123,3 @@ No entanto, há uma questão ética e legal importante: nem todos os sites permi
 - https://github.com/microsoft/markitdown
 - https://github.com/browser-use/browser-use
 - https://python.plainenglish.io/full-apache-airflow-tutorial-interview-notes-zero-to-ready-31b5e3ae5b56
-
-<img width="1280" height="799" alt="687640848_959948516644747_1933087596060947387_n" src="https://github.com/user-attachments/assets/9ebe4b03-c4f5-415f-b435-fc84b11d1f27" />
