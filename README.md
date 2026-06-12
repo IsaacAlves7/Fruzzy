@@ -3,7 +3,9 @@
 # 🧐 Fruzzy
 A ideia por trás do **Fruzzy** é inovadora para Engenharia de Dados e ETL/ELT, pois atua como um sistema inteligente capaz de lidar com múltiplos arquivos e executar todo o fluxo de trabalho ETL/ELT de ponta a ponta. Em vez de focar em etapas isoladas como extração, transformação ou carregamento separado, ele reúne tudo em um pipeline unificado e automatizado, onde documentos podem ser ingeridos em escala e processados em saídas estruturadas em formatos como JSON ou Markdown. Isso o torna especialmente útil para fluxos de trabalho modernos de dados e sistemas de IA, onde dados não estruturados precisam ser continuamente transformados em informações utilizáveis e legíveis por máquinas.
 
-Antes, o repositório era de um sistema que realizava OCR em documentos PDF, extraia dados estruturados e os exportava automaticamente para planilhas do Excel para automação e análise. Com ele era possível ler mais de 100 PDFs e escrever todos os dados e relatórios em uma única planilha do Excel. Isso era o fluxo perfeito para gerenciamento de projetos que precisava revisar mais de 100 documentos por dia e entregar relatórios sobre eles em qualquer empresa, especialmente aquelas que lidam com indústrias e siderurgicas, sendo útil na área de logística e supply chain. 
+Antes, o repositório era de um sistema que realizava OCR em documentos PDF, extraia dados em texto, depois organizava os dados estruturados no banco de dados e os exportava automaticamente para planilhas do Excel para automação e análise. Com ele era possível ler mais de 100 PDFs e escrever todos os dados e relatórios em uma única planilha do Excel. 
+
+Esse era o fluxo perfeito para gerenciamento de projetos que precisavam revisar mais de 100 documentos por dia e entregar relatórios sobre eles em qualquer empresa, especialmente aquelas que lidam com indústrias e siderurgicas, sendo útil no setor de logística e supply chain. 
 
 A imagem abaixo ilustra de forma simples como é feito o processamento do OCR, e os balões formam a conversão em texto, sendo reconhecidos para transcrição no formato tabular e estruturada em planilhas Excel.
 
