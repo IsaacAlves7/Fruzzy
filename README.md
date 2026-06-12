@@ -1,3 +1,5 @@
+<img width="2560" height="600" alt="header_download-1" src="https://github.com/user-attachments/assets/765aa874-0496-4056-bd82-cb7c406e8cb0" />
+
 > Versículo chave: "Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos." - Provérbios 16:3
 
 # 🧐 Fruzzy
